@@ -431,18 +431,12 @@
     <div class="login-sub">Espace Manager</div>
     <div class="login-icon"><i class="fas fa-shield-halved"></i></div>
     <div class="login-input-wrap">
-      <i class="fas fa-envelope"></i>
-      <input class="login-input" id="email-input" type="email"
-             placeholder="Email"
-             onkeydown="if(event.key==='Enter') tryLogin()">
-    </div>
-    <div class="login-input-wrap">
       <i class="fas fa-lock"></i>
       <input class="login-input" id="pwd-input" type="password"
              placeholder="Mot de passe"
              onkeydown="if(event.key==='Enter') tryLogin()">
     </div>
-    <button class="login-btn" id="login-btn-el" onclick="tryLogin()">
+    <button class="login-btn" onclick="tryLogin()">
       <i class="fas fa-sign-in-alt"></i> &nbsp; Accéder
     </button>
     <div class="login-error" id="login-error"></div>
