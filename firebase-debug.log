@@ -1,0 +1,56 @@
+[debug] [2026-04-15T19:08:06.848Z] ----------------------------------------------------------------------
+[debug] [2026-04-15T19:08:06.850Z] Command:       /usr/local/share/nvm/versions/node/v24.11.1/bin/node /home/codespace/nvm/current/bin/firebase init
+[debug] [2026-04-15T19:08:06.850Z] CLI Version:   15.14.0
+[debug] [2026-04-15T19:08:06.850Z] Platform:      linux
+[debug] [2026-04-15T19:08:06.850Z] Node Version:  v24.11.1
+[debug] [2026-04-15T19:08:06.851Z] Time:          Wed Apr 15 2026 19:08:06 GMT+0000 (Coordinated Universal Time)
+[debug] [2026-04-15T19:08:06.851Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /workspaces/big-mahmoud-manager
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-04-15T19:09:45.407Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-04-15T19:09:45.408Z] > authorizing via signed-in user (yanis.ez333@gmail.com)
+[debug] [2026-04-15T19:09:45.409Z] Checked if tokens are valid: true, expires at: 1776283655881
+[debug] [2026-04-15T19:09:45.410Z] Checked if tokens are valid: true, expires at: 1776283655881
+[debug] [2026-04-15T19:09:45.411Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2026-04-15T19:09:45.866Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-04-15T19:09:45.866Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] 
+=== Hosting Setup
+[debug] [2026-04-15T19:10:03.076Z] Checked if tokens are valid: true, expires at: 1776283655881
+[debug] [2026-04-15T19:10:03.076Z] Checked if tokens are valid: true, expires at: 1776283655881
+[debug] [2026-04-15T19:10:03.076Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bigmahmoud-b5659 [none]
+[debug] [2026-04-15T19:10:03.388Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bigmahmoud-b5659 200
+[debug] [2026-04-15T19:10:03.388Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bigmahmoud-b5659 {"projectId":"bigmahmoud-b5659","projectNumber":"88480505979","displayName":"bigmahmoud","name":"projects/bigmahmoud-b5659","resources":{"hostingSite":"bigmahmoud-b5659"},"state":"ACTIVE","etag":"1_c5c5e6b4-c8c0-4e57-a00b-0001cad16c1e"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] 
+[info] i  Detected a .git folder at /workspaces/big-mahmoud-manager 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=275413909&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
